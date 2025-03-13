@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+// <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+header {
+    background-color: #f9faea;
+}
+
+nav img {
+    height: 8rem;
+    display: flex;
+    margin:0 0 0 33% ;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    padding: 0 1.5rem 1rem;
+}
+
+nav .container li {
+    list-style-type: none;
+    color: #705455a6;
+}
+
+.lepetitmacaron h1 {
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5rem 0 5rem 0;
+    color: #b78fc7;
+    font-family: "Montserrat", sans-serif;
+  
+    font-size: 9vw;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+}

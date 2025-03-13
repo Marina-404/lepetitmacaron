@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dancing Script";
+    src: url(fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #f9faea;
+    font-family: "montserrat", sans-serif;
+    text-align: center;
+}
+
+nav img {
+    height: 7rem;
+    
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    padding: 0 1rem 1rem;
+    
+}
+ 
+nav .container li {
+    list-style-type: none;
+}
+
+nav .container li a {
+    text-decoration: none;
+    color: #696366;
+    font-weight: 700;
+}
+
+.lepetitmacaron h1 {
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0 0 0 30px;
+    padding: 7rem 0 7rem 0;
+    
+    font-weight: 800;
+    font-size: 9vw;
+    display: flex;
+    justify-content: center;
+}
+
+.titre1 {
+    color: #696366;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+ }
+
+.titre2 {
+    color:#c18398;
+    font-family: "Dancing Script"; 
+    font-size: 3rem;
+}
+
+.description p {
+    margin: 0 10%;
+}
+
+.description hr {
+    background-color: hsl(0, 63%, 54%);
+    margin: 10px 0;
+    height: 1px;
+    width: 100%;
+}
+
+section {
+    padding: 1rem 0 ;
+}
+
+
+section .nosmacarons {
+    color: #696366;
+    font-weight: 500;
+}
+
+section .signature {
+    color:#c18398;
+    font-family: "Dancing Script";
+    font-size: 2.5rem;
+}
+
+.bubblecontainer {
+    padding: 6% 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem 0.5rem;
+}
+
+.bubblecontainer div img {
+    width: 70%;
+    height: auto;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.bubblecontainer div h3 {
+    color: #696366;
+    font-size: 1rem;
+}
+
+.boutique {
+    background-color:#fde3e2;
+    border-radius: 80px 80px 0 0;
+    text-align: center;
+    padding: 3rem 0;
+}
+.boutique h2 {
+    color:#696366;
+    font-family: "Dancing Script";
+    font-size: 2.5rem;
+    padding: 0 0 1rem 0;
+    
+}
+ .boutique img {
+    border-radius: 50%;
+    border: 4px solid #696366 ;
+    width: 80%;
+    margin: 0 0 1rem 0;
+    padding: 0.5rem;
+ }
+
+
+.formulaire {
+    padding: 2rem 0 20rem;
+}
+
+.ville {
+    font-weight: bold;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 0 20%;
+}
+
+
+form hr {
+    background-color: #696366;
+    margin: 10px 0;
+    height: 1px;
+    width: 100%;
+}
+
+.corps-formulaire div{
+    display: grid;
+}
+
+input {
+    margin: 0.2rem 0;
+}
+
+input[type="submit"] {
+    background-color: #696366;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 1rem 0 0;
+    padding: .5rem 0.1rem;
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+
+input:focus {
+    border: 3px solid #c06684;
+}
+
+textarea {
+    height: 100px;
+}
+
+footer {
+    background-color: #fde3e2;
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+
+  
+/*  ---- Version Tablette ---- */
+
+@media screen and (min-width : 768px) and (max-width : 991px) {
+    
+    .description p {
+        margin: 0 15%;
+    }
+
+    .bubblecontainer div img {
+        width: 60%;
+    }
+    
+    .boutique {
+        border-radius: 10rem 10rem 0 0;
+    }
+
+    .boutique img {
+        border: 5px solid #696366 ;
+        width: 60%;
+    }
+
+    section form {
+        margin: 0 35%;
+    }
+}
+
+
+/* ---- Version PC --- */
+
+@media screen and (min-width : 991px) {
+    
+    header  nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
+    }
+
+   nav img {
+        height: 7rem;
+        margin:0.5rem ;
+    }
+
+    nav .container {
+        display: flex;
+        gap: 5rem;
+        margin: 0 5rem 0;
+    }
+    
+    nav li a {
+        font-size: 1.2rem;
+    }
+
+    h1 .titre2 {
+        font-size: 5rem;
+    }
+    h1 .titre1 {
+        font-size: 5rem;
+    }
+    .lepetitmacaron h1 {
+        background-position: bottom;
+        padding: 11% 0;
+    }
+
+    .description p {
+        margin: 0 25%;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }    
+
+    h2 .signature{
+        font-size: 3rem;
+    }
+    
+    .bubblecontainer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .bubblecontainer div img {
+        width: 60%;
+    }
+
+    .bubblecontainer div h3 {
+        font-size: 1.2rem;
+
+    }
+    .boutique {
+        border-radius: 10rem 10rem 0 0;
+    }
+
+    .boutique img {
+        border: 5px solid #696366 ;
+        width: 30%;
+    }
+
+    section form {
+        margin: 0 37%;
+    }
+
+} 
