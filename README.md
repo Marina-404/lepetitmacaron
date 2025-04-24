@@ -42,7 +42,7 @@ Créer un site vitrine simple et esthétique autour du thème du macaron pour :
 
 ## 📸 Aperçu
 
-![Voir la démo](./images/Demo video.gif)
+![Voir la démo](./images/Demo-video.gif)
 
 ---
 
