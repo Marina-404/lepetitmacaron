@@ -52,4 +52,3 @@ Créer un site vitrine simple et esthétique autour du thème du macaron pour :
 
 ---
 
-Tu veux que je t’aide à ajouter une vraie image d’aperçu ou une bannière ? Ou t’aider à le mettre en forme directement en Markdown pour le coller dans GitHub ?
